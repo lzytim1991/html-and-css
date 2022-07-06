@@ -1,0 +1,32 @@
+body {
+    background: white;
+
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.logo-img {
+    margin-bottom: 20px;
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-bar {
+    display:block;
+    width: 400px; /*smallest unit of space that the screen can render*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+Challenge:
+Add some space between the logo and the search field
+What are the two different ways we can do this with margins?
+
+add bottom margin in the logo container
+add top margin in the input container
+*/

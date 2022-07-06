@@ -1,0 +1,20 @@
+body {
+    background: white;
+
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.logo-img {
+    display: block;
+    width: 300px;
+
+}
+
+.search-bar {
+    display:block;
+    width: 400px; /*smallest unit of space that the screen can render*/
+
+}
