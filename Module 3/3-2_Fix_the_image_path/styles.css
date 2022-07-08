@@ -1,0 +1,14 @@
+body {
+    margin: 20px;
+
+}
+
+.card-img {
+    width: 150px;
+}
+
+.business-card {
+    border: 1px dotted blue;
+    padding: 20px;
+    display: flex
+}

@@ -1,0 +1,20 @@
+/* goal is to write DRYer (Don't Repeat Yourself) code */
+
+/* 
+Only a certain (small) number of properties are inherited
+So what can be inherited?
+
+Reference: https://stackoverflow.com/questions/5612302/which-css-properties-are-inherited
+*/
+
+body {
+    margin: 10px;
+    text-align: center;
+    
+    color: darkgoldenrod;
+    cursor:progress;
+    
+    font-family: Tahoma;
+    font-size: 32px;
+    letter-spacing: 20px;
+}

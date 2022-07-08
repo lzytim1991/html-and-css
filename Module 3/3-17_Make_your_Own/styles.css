@@ -1,0 +1,63 @@
+body {
+    margin: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    /*
+    Challenge 3-9:
+    Add horizontal space around the flex children.
+    Hint: google "justify content
+
+    Challenge 3-10:
+    Give the card a width of 400px wide and center it.
+
+    Challenge 3-16:
+    Replace the two margin properties with a 
+    single margin shorthand.
+    
+    margin-left: auto;      Challenge 3-10
+    margin-right: auto;     Challenge 3-10
+    */
+
+    /* centering the card in the middle of the screen */
+    width: 400px;             /* Challenge 3-10 */
+    margin: 0 auto;           /* Challenge 3-16 */
+
+    /* spaces the contents within the business card adequately */
+    display: flex;
+    justify-content: space-around; /* Challenge 3-9 */
+    
+    /* padding */
+    padding: 20px;
+    
+    /*
+    Challenge 3-12:
+    Center the text in the <p> and <h4> elements.
+    Note: you should only add ONE property, as inheritance 
+    should take care of applying it to both elements.
+
+    Challenge 3-13:
+    Add colors to the card according to the design.
+    black - #2b2839 (the text color)
+    blue - #ddebf8
+    purple - #d8cefe
+    */
+
+    /* text properties */
+    text-align: center;       /* Challenge 3-12 */
+    color: #2b2839;         /* Challenge 3-13 */
+
+    /* background properties */
+    background: #ddebf8;    /*Challenge 3-13*/
+   
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
